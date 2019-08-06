@@ -10,6 +10,9 @@ gem 'oauth'
 gem "omniauth", :git => "https://github.com/intridea/omniauth.git"
 gem 'omniauth-twitter'
 gem "chronic"
+gem "carrierwave", "~> 1.0"
+gem "devise"
+gem "pundit
 
 group :assets do
   gem 'sass-rails'
@@ -27,3 +30,5 @@ group :test do
   gem "launchy", "~> 2.0.5"
   gem "database_cleaner", "~> 0.6.7"
 end
+
+gem 'delayed_job_active_record'
