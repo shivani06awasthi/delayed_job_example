@@ -20,7 +20,6 @@ group :assets do
   gem 'uglifier'
 end
 
-group :test do
   gem "timecop"
   gem "rspec-rails", "~> 2.7"
   gem "cucumber-rails", "~> 1.0.5"
